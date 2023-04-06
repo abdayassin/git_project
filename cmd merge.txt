@@ -1,0 +1,23 @@
+get branch code from '#' from dromos 
+- 1.git status
+- 2.2.git restore 'chemain de fichier a ignorer'
+- 2. git checkout -b mon branch (switch to branch)
+-3. git stash 
+- git checkout dev
+- git pull
+- git checkout 53351
+- git stash pop
+- 3. git add .
+- 4.- git commit -m '53351'
+- git merge dev
+- git push origin 53351
+
+go to gitlab lancé mege request 
+
+ 54465
+
+    logout()
+    {
+      localStorage.removeItem('auth-token');
+      localStorage.removeItem('auth-user');   
+     }
