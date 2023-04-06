@@ -1,0 +1,35 @@
+npm init -y 
+npm i express
+node app.js
+cls
+md nodejs => nv projet 
+npm i nodemon
+mongodb+srv://abdayassine:<password>@cluster0.kijjb6z.mongodb.net/?retryWrites=true&w=majority
+
+npm install -g nodemon
+nodemon server.js
+Démarrez le serveur en exécutant node server à partir de la ligne de commande.
+ Pour vérifier qu'il envoie la réponse correcte, utilisez une fenêtre de navigateur pour accéder
+Désormais, au lieu d'utiliser node server pour démarrer votre serveur, vous pouvez utiliser nodemon server 
+
+npm install mongoose
+cree un model de donnée
+
+npm install mongoose-unique-validator
+mongoose-unique-validator  améliore les messages d'erreur lors de l'enregistrement de données uniques.
+
+Il nous faudra le package de chiffrement bcrypt pour notre fonction signup . Installons-le donc dans notre projet :
+
+npm install bcrypt
+
+Pour pouvoir créer et vérifier les tokens d'authentification, il nous faudra un nouveau package :
+
+npm install jsonwebtoken
+
+
+npm install multer --save
+Les images seront enregistrées dans un sous-dossier appelé images . Créez donc ce sous-dossier dans votre dossier backend .
+
+DEBUG=express:* nodemon index.js
+
+
